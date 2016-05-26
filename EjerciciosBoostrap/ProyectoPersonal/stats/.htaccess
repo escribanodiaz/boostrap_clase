@@ -1,0 +1,7 @@
+AuthName "escribanodiaz.tk statistics"
+AuthType Basic
+AuthUserFile /home/escribanodiaz/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

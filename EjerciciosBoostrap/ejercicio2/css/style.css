@@ -1,0 +1,67 @@
+ body{font-size:16px}
+        .title *{font-size:30px;color:#FFF}
+        .navbar-brand,.title,h1,h2,h3,h4,h5{font-family:"Crete Round",Georgia,serif}
+
+            #myCarousel{
+              margin-top: 5px;
+              margin-bottom: 10px;
+            }
+            .center-text{
+                text-align: center;
+                margin-bottom: 80px;
+            }
+            .row{
+                margin-bottom: 80px;
+            }
+
+            h2{
+                color: #8FD1FA;
+                text-align: center;
+                margin-bottom: 10px;
+                font-weight:lighter
+            }
+            p{
+                color: #868B9C;
+                text-align: center;
+            }
+
+            .avatar{
+                border-radius: 50%;
+                background-size: 100% auto;
+            }
+            .navbar-toggle{
+                background-color: #323B57;
+            }
+            .navbar-toggle .icon-bar{
+                background-color: white;
+            }
+            a{
+            color: black;
+          }
+            .navbar .container-fluid{
+              background-color: rgba(47, 59, 88, 0.8);
+            }
+            #myCarousel{
+              margin-top: 50.3px;
+            }
+            li a,a{
+                color: rgb(239, 235, 222);
+            }
+            body {
+                /* Hay que poner el mismo margin-bottom que el alto del .footer */
+                margin-bottom: 60px;
+            }
+
+            .footer {
+                position: absolute;
+
+                width: 100%;
+                /* Pon el alto exacto que quieras para tu footer aqui */
+                color: white;
+                height: 60px;
+                background-color:  #323B57;
+            }
+
+            .imag img{
+              width: 550px;
+            }

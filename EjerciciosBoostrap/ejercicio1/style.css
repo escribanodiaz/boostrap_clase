@@ -1,0 +1,58 @@
+img {
+    width: 100%;
+    height: 300px;
+}
+
+.titulo {
+    position: absolute;
+    left: 450px;
+    color: black;
+    font-size: 30px;
+}
+
+.margenli {
+    padding-left: 190px;
+}
+
+.paddingrow {
+    margin-bottom: 30px;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+/* definir el tamaño del carousel, exacto, importante la proporcion de las imagenes */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: 200px;
+    margin: auto;
+}
+
+#myCarousel {
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+    /* md */
+    /* definir el tamaño del carousel, exacto, importante la proporcion de las imagenes */
+    #myCarousel {
+        width: 430px;
+    }
+}
+
+.jumbotron{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* primer elemento con el efecto parallax, con un fondo */
+#intro {
+    background: url(https://erickmen3.files.wordpress.com/2012/01/futurama-011.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+}
