@@ -1,66 +1,152 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Antonio Escribano</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Pagina web de Lengueje de Marcas">
-        <meta name="keywords" content="HTML,solvam,marcas">
-        <meta name="author" content="Antonio Escribano">
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../font-awesome-4.6.1/css/font-awesome.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
-    </head>
-    <body>
-       <nav class="navbar navbar-static-top fijo">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" role="button" data-target="#navegation-fm">
-                        <span class="sr-only">Desplegar /Ocultar Menu</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
+
+<head>
+    <title>Antonio Escribano</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Pagina web de Lengueje de Marcas">
+    <meta name="keywords" content="HTML,solvam,marcas">
+    <meta name="author" content="Antonio Escribano">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../font-awesome-4.6.1/css/font-awesome.css" media="screen" />
+    <style media="screen">
+        body {
+            font-size: 16px
+        }
+        
+        .title * {
+            font-size: 30px;
+            color: #FFF
+        }
+        
+        .navbar-brand,
+        .title,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Crete Round", Georgia, serif
+        }
+        
+        .navbar-toggle {
+            background-color: #323B57;
+        }
+        
+        .letorrana{
+            color: black;
+        }
+        
+        .navbar-toggle .icon-bar {
+            background-color: white;
+        }
+        
+        a {
+            color: black;
+        }
+        
+        .navbar .container-fluid {
+            background-color: rgba(47, 59, 88, 0.8);
+        }
+        
+        li a,
+        a {
+            color: rgb(239, 235, 222);
+        }
+        
+        .img {
+            width: 1200px;
+            margin-top: 53px;
+        }
+        
+        .row {
+            margin-bottom: 50px;
+        }
+        
+        .center-text {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        /* primer elemento con el efecto parallax, con un fondo */
+        
+        #intro {
+            background: url(http://www.htmlandcssbook.com/images/press/book-paragraph.jpg) 50% 0 fixed;
+            background-size: cover;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+            padding: 100px 0;
+        }
+       
+        .imgfor{
+           border-radius: 40px;
+                background-size: 100% auto;
+        }
+        .footer {
+                position: absolute;
+
+                width: 100%;
+                /* Pon el alto exacto que quieras para tu footer aqui */
+                color: white;
+                height: 60px;
+                background-color:  #323B57;
+            }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top fijo">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" role="button" data-target="#navegation-fm">
+                    <span class="sr-only">Desplegar /Ocultar Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
                         BrandsDP
                     </a>
 
-                </div>
-                <!--Inicio Menu-->
-                <div class="collapse navbar-collapse" id="navegation-fm">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                <i class="fa fa-home " aria-hidden="true"></i>
-                                Inicio</a>
-                        </li>
-                        <li  class="active">
-                            <a href="html/html.html">
-                                <i class="fa fa-html5" aria-hidden="true"></i>
-                                Html
-                            </a>
-                        </li>
-                        <li>
-                            <a href="html/html.html">
-                                <i class="fa fa-css3" aria-hidden="true"></i>
-                                Css</a>
-                        </li>
-                        <li>
-                            <a href="html/html.html">
+            </div>
+            <!--Inicio Menu-->
+            <div class="collapse navbar-collapse" id="navegation-fm">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="../index.html">
+                            <i class="fa fa-home " aria-hidden="true"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="page-scroll active">
+                        <a href="#formatos">
+                            <i class="fa fa-html5" aria-hidden="true"></i> Html
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-css3" aria-hidden="true"></i> Css
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
                                 Css3</a>
-                        </li>
-                        <li>
-                            <a href="html/html.html">
+                    </li>
+                    <li>
+                        <a href="">
                                 Php</a>
-                        </li>
-                        <li>
-                            <a href="html/html.html">
+                    </li>
+                    <li>
+                       <a data-toggle="modal" data-target="#myModal">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 Contacto</a>
-                        </li>
-                    </ul>
+                    </li>
+                </ul>
 
-                    <!--La barra de buscar-->
-                    <form class="navbar-form navbar-left" role="search">
+                <!--La barra de buscar-->
+                <form class="navbar-form navbar-left" role="search">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
@@ -69,18 +155,201 @@
             </div>
         </div>
     </nav>
-        <!--Empezamos el contenido-->
-       <div class="container">
-           <!--Html-->
-            <div class="row">
-                <div class="panel panel-primary">
-                    <div class="panel-body">
-                        <p>Pagina en creacion</p>
+    <!--Empezamos el contenido-->
+    <div class="container">
+        <div class="row">
+            <img class="img" src="http://candamena.com/wp-content/uploads/2015/09/dise%C3%B1oweb1-2000x500_c.jpg" alt="html">
+        </div>
+        <h1 class="center-text">Html HyperText Markup Language</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Fomatos de Texto</h3>
+                <p>Vamos a ver una serie de etiquetas y atributos básicos para la creación de páginas webs. No entraremos a describir una a una todas las etiquetas y atributos de que HTML dispone.</br>
+                <a class="letorrana page-scroll" href="#formatos">Ir a formtados</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Listas</h3>
+                <p>En la mayoría de los documentos HTML se usan listas para organizar el texto. El lenguaje HTML incorpora distintas formas de mostrar listas.</br>
+                <a class="letorrana page-scroll" href="#formatos">Ir a formtados</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Imagenes</h3>
+                <p>La revolución de la imagen fue también mérito de una marca hoy muy común
+                    <IMG>, esto es, el elemento necesario para invocar imágenes dentro de la página.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Tablas</h3>
+                <p>Las tablas más sencillas de HTML se definen con tres etiquetas: table para crear la tabla, tr para crear cada fila y td para crear cada columna.</br>
+                <a class="letorrana page-scroll" href="#formatos">Ir a formtados</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Frames</h3>
+                <p>Los frames es un elemento implementado por Netscape, que permite dividir la pantalla en varias áreas independientes unas de otras, y por tanto con contenidos distintos, aunque puedan estar relacionados.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Formularios</h3>
+                <p>Un formulario HTML es una sección de un documento que contiene contenido normal, código, elementos especiales llamados controles (casillas de verificación (checkboxes), radiobotones (radio buttons), menúes, etc.), y rótulos (labels) en esos controles.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <section data-speed="10" data-type="background" id="intro">
+        </section>
+    </div>
+
+    <div id="formatos" class="container-fluid">
+        <div class="row">
+            <h1 class="page-header center-text">Formatos de Texto</h1>
+        <div class="col-md-6">
+            <img class="imgfor" alt="formatos" src="http://4.bp.blogspot.com/-RrNOKKSWf3M/VMifvesmfaI/AAAAAAAAB4I/AZQCDL5Odbo/s1600/html_formato_texto8.png" width="600px"/>
+        </div>
+           <div class="col-md-6">
+            <strong>Negrita</strong>
+            <br />
+            <br /> Existen dos etiquetas que har&aacute;n que nuestro texto se <convier></convier><ne></ne>utilizaci&oacute;n de cualquiera de ellas es indiferente. Puedes usar la que prefieras.
+            <br />
+            <br /> La primera es la etiqueta &lt;b&gt; y la otra es la etiqueta &lt;strong&gt;. 
+            <br />
+            <br />
+            <strong>Cursiva</strong>
+            <br />
+            <br /> Para escribir un texto en cursiva debemos utilizar la etiqueta &lt;i&gt; (y por <supu></supu>cer></cer>la etiqueta &lt;/i&gt;).
+            <br />
+            <br /> Tambi&eacute;n podemos utilizar la etiqueta &lt;em&gt;. Como en el caso de la <negrit></negrit><in></in>el uso de una u otra.
+         </div>
+        </div>
+    </div>
+
+    <div id="listas" class="container-fluid">
+        <div class="row">
+            <h1 class="page-header center-text">Listas</h1>
+        <div class="col-md-12">
+            <img class="imgfor" alt="formatos" src="http://www.leonorcanuelo.com/wp-content/uploads/2015/12/3-1.png"/>
+        </div>
+    </div>
+    
+    <div id="tablas" class="container-fluid">
+        <div class="row">
+            <h1 class="page-header center-text">Tablas</h1>
+        <div class="col-md-6">
+            <img class="imgfor" src="http://www.mathiaspereira.com/servidor/GUIA/img/uniondefilas.jpg" width="600px"/>
+        </div>
+        <div class="col-md-6">
+            <p>La etiqueta <strong>Table</strong> encierra todas las filas y columnas de la tabla. Las etiquetas <strong>tr</strong> (del inglés "table row") definen cada fila de la tabla y encierran todas las columnas. 
+            </br>Por último, la etiqueta <strong>td</strong> (del inglés "table data cell") define cada una de las columnas de las filas, aunque realmente HTML no define columnas sino celdas de datos.
+            <br>
+Al definir una tabla, se debe pensar en primer lugar en las filas que la forman y a continuación en las columnas. El motivo es que HTML procesa primero las filas y por eso las etiquetas <strong>tr</strong> aparecen antes que las etiquetas <strong>td</strong>.</p>
+        </div>
+    </div>
+    </div>
+    
+      <footer class="footer">
+        <div class="container">
+            <p class="text-muted text-center">Un footer utilizando css, :), y alguna clase</p>
+        </div>
+    </footer>
+
+   <div class="modal fade" id="myModal">
+        <!-- un poco de estilos, si no ocuparía toda la pantalla en este caso-->
+        <div class="modal-dialog">
+           <!-- el contenido-->
+            <div class="modal-content">
+               <!-- cabecera del modal (titulo y la x para cerrar, el &times;-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Contacte conmigo</h4>
+                </div>
+                <!-- cuerpo del modal-->
+                <div class="modal-body">
+                   <!-- podemos poner lo que conocemos de bootstrap
+                   si ponemos un container en lugar de un container-fluid no se vera bien,
+                   ocuparía demasiado-->
+                    <div class="container-fluid">
+                       <!-- un form clasico de bootstrap-->
+                        <h2>Rellene el formulario</h2>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="email">Correo:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label>Que quieres preguntar?</label>
+                              <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">Aceptas las politicas de privacidad
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
                     </div>
+                    <br>
+                    <!-- y si queremos podemos añadir el contenido que nos apetezca -->
+                </div>
+                <!-- el pie de página del footer-->
+                <div class="modal-footer">
+                   <!-- con el data-dismiss="modal" decimos que se cierre-->
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Cerrar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                    Guardar
+                    </button>
                 </div>
             </div>
-       </div>
-        <script src="../js/jquery.js"></script>
-        <script src="../js/bootstrap.js"></script>
-    </body>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="../js/boots-scrolling.js"></script>
+  <!-- FIN SMOOTH SCROLL -->
+
+  <!-- INICIO DE LA ANIMACION DEL MENU -->
+  <script src="../js/boots-animate-menu.js"></script>
+  <!-- FIN INICIO DE LA ANIMACION DEL MENU -->
+
+    <script>
+        /*
+         *   CÓDIGO NECESARIO QUE HACE EL EFECTO
+         *   PARALLAX
+         */
+        $(document).ready(function () {
+            // cache the window object
+            $window = $(window);
+
+            $('section[data-type="background"]').each(function () {
+                // declare the variable to affect the defined data-type
+                var $scroll = $(this);
+                $scroll.css("min-height", $(window).height());
+
+                $(window).scroll(function () {
+                    // HTML5 proves useful for helping with creating JS functions!
+                    // also, negative value because we're scrolling upwards
+                    var yPos = -($window.scrollTop() / $scroll.data('speed'));
+
+                    // background position
+                    var coords = '50% ' + yPos + 'px';
+
+                    // move the background
+                    $scroll.css({
+                        backgroundPosition: coords
+                    });
+                }); // end window scroll
+            }); // end section function
+        }); // close out script
+
+        /* Create HTML5 element for IE */
+        document.createElement("section");
+    </script>
+</body>
+
 </html>
